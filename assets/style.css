@@ -67,6 +67,9 @@ header{
     justify-content: space-between;
 }
 
+.hamburger{
+    display: none;
+}
 .container{
     display: flex;
     width: 100%;
@@ -96,6 +99,12 @@ header{
 .text-1{
     padding: 20px 20px 0px 20px;
     font-size: 30px;
+    color: black;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(247, 205, 127);
 }
 
 .text-2{
@@ -152,6 +161,28 @@ header{
     text-align: justify;
 }
 
+.ultah{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
+.start{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.note{
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+
 .gambar-1{
     display: block;
     margin-left: auto;
@@ -192,7 +223,7 @@ header{
     margin-right: auto;
     width: 70%;
     border-radius: 15%;
-    padding: 25px 25px 0 25px;
+    padding: 15px 25px 0 25px;
 }
 
 .keterangan{
@@ -275,6 +306,10 @@ main{
     overflow:auto;
 }
 
+.pitchdeck{
+    display: none;
+}
+
 @media screen and (max-width: 990px){
     #content, #profile{
         width: 100%;
@@ -323,4 +358,80 @@ main{
         font-size: 25px;
     }
 
+    .gambar{
+        display: inline;
+    }
+    .gambar-1,.gambar-2,.gambar-3,.gambar-4{
+        width: 70%;
+        object-fit: cover;
+        object-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .gambar-4, .gambar-1{
+        padding: 0px;
+    }
+
+
+    .tulisan-pitch, iframe{
+        display: none;
+    }
+
+    .pitchdeck{
+        display: block;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+
+    header{
+        display: inline;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .text-1{
+        font-size: 25px;
+        text-align: left;
+    }
+    .text-2{
+        font-size: 33px;
+        text-align: left;
+    }
+
+    .text-3{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .kisah{
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .pembuka{
+        font-size: 25px;
+    }
+
+    .start{
+        font-size: 20px;
+    }
+
+    .note{
+        font-size: 10px;
+    }
+
+    #story, #dream{
+        font-size: 35px;
+    }
+
+    .pitchdeck{
+        font-size: 18px;
+    }
+
+    .penutup{
+        font-size: 30px;
+    }
 }
