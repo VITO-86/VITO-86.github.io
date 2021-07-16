@@ -1,0 +1,326 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: monospace;
+}
+
+main{
+    background-color: #184adf;
+}
+
+header{
+    background-color: #171717;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 60px;
+    
+}
+
+.titik{
+    color: red;
+    font-weight: bold;
+}
+.logo{
+    color:aliceblue;
+    display: inline-block;
+}
+
+.nav-links{
+    color:aliceblue;
+    list-style: none;
+    display: flex;
+    padding-right: 50px;
+}
+
+.nav-item a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+
+.nav-item:hover a {
+    color: #171717;
+}
+
+header{
+    width: 100%;
+}
+#Introduction{
+    background-color: rgba(112, 111, 111, 0.267) !important; 
+    width: 100%;   
+    height: auto;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row-1{
+    flex: 1;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 35px;
+}
+
+.row-2{
+    flex: 2;
+    padding: 160px 50px 200px 50px;
+    justify-content: center;
+    width: 60%;
+    
+}
+
+.text-1{
+    padding: 20px 20px 0px 20px;
+    font-size: 30px;
+}
+
+.text-2{
+    padding: 0 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-2:hover,.text-4:hover{
+    background-color: white;
+    color: red;
+}
+
+.text-3{
+    padding: 55px 20px 0 20px;
+    font-size: 25px;
+}
+
+#content{
+    background-color: #184adf;
+    float: left;
+    width: 70%;
+    
+}
+
+
+#story, #dream{
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    font-size: 40px;
+    padding: 30px;
+}
+
+
+
+.pembuka{
+    color: aliceblue;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.pembuka:hover{
+    background-color: black;
+    color: white;
+}
+
+.kisah{
+    color: aliceblue;
+    padding: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.gambar-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 15%;
+    padding: 25px;
+    object-fit: cover;
+}
+
+.gambar{
+    display: flex;
+    padding: 30px;
+    
+}
+
+.gambar-2{
+    flex: 1;
+    border-radius: 15%;
+    width: 30%;
+    margin: 20px;
+    
+}
+    
+
+
+.gambar-3{
+    flex: 1;
+    border-radius: 15%;
+    width: 30%;
+    margin: 20px;
+}
+
+
+.gambar-4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 15%;
+    padding: 25px 25px 0 25px;
+}
+
+.keterangan{
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.my-cv,a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.my-cv:hover{
+    color: white;
+}
+
+.link-cv{
+    color: aliceblue;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.link-cv:hover{
+    background-color: blue;
+}
+
+.penutup{
+    color: aliceblue;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 35px;
+    text-align: left;
+}
+
+.card{
+    box-shadow: 0px 0px 20px #171717;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #184adf;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+#profile {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+    background: #184adf;
+    height: max-content;
+    padding-top: 40px;
+
+}
+
+h2{
+    color:aliceblue
+}
+
+footer{
+    padding: 20px;
+    color: aliceblue;
+    background-color: #171717;
+    text-align: center;
+    font-weight: bold;
+}
+
+main{
+    overflow:auto;
+}
+
+@media screen and (max-width: 990px){
+    #content, #profile{
+        width: 100%;
+        padding: 0;
+    }
+    figure{
+        display: flex;
+    }
+    .fa{
+        flex: 1;
+    }   
+    
+    #introduction{
+        width: 100%;
+        height: auto;
+    }
+
+    .container{
+        display: inline;
+    }
+
+    .row-1{
+        width: 85%;
+        height: 50%;
+        padding: 100px 100px 30px 100px;
+        border-radius: 0%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .row-2{
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .text-1{
+        font-size: 30px;
+    }
+    .text-2{
+        font-size: 40px;
+    }
+    .text-3{
+        padding-top: 50px;
+        padding-bottom: 135px;
+        font-size: 25px;
+    }
+
+}
