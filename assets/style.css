@@ -33,6 +33,7 @@ header{
 .logo{
     color:aliceblue;
     display: inline-block;
+
 }
 
 .nav-links{
@@ -433,5 +434,9 @@ main{
 
     .penutup{
         font-size: 30px;
+    }
+    
+    .row-1{
+        height: 70%
     }
 }
